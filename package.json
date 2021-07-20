@@ -1,0 +1,32 @@
+{
+    "name": "xcon.js",
+    "version": "1.0.0",
+    "description": "A logger made for NodeJS, Deno and the browser",
+    "main": "lib/backend.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/kowarite/xconsole.git"
+    },
+    "author": "kowarite",
+    "license": "MIT",
+    "private": false,
+    "bugs": {
+        "url": "https://github.com/kowarite/xconsole/issues"
+    },
+    "homepage": "https://github.com/kowarite/xconsole#readme",
+    "scripts": {
+        "test": "npx mocha",
+        "build": "node build.js"
+    },
+    "keywords": [
+        "console",
+        "logger",
+        "style"
+    ],
+    "devDependencies": {
+        "esbuild": "^0.12.15",
+        "mocha": "^9.0.2",
+        "typescript": "^4.3.5"
+    }
+}
